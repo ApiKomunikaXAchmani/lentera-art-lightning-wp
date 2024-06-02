@@ -1,0 +1,96 @@
+[11-Mar-2023 05:01:27 UTC] PHP Warning:  file_get_contents(/home4/k7p1k4e2/lenteraartlighting.com/wp-content/uploads/aios/firewall-rules/settings.php): failed to open stream: No such file or directory in /home4/k7p1k4e2/lenteraartlighting.com/wp-content/plugins/all-in-one-wp-security-and-firewall/classes/firewall/libs/wp-security-firewall-config.php on line 60
+[11-Mar-2023 05:01:27 UTC] PHP Warning:  file_get_contents(/home4/k7p1k4e2/lenteraartlighting.com/wp-content/uploads/aios/firewall-rules/settings.php): failed to open stream: No such file or directory in /home4/k7p1k4e2/lenteraartlighting.com/wp-content/plugins/all-in-one-wp-security-and-firewall/classes/firewall/libs/wp-security-firewall-config.php on line 64
+[11-Mar-2023 05:01:27 UTC] PHP Warning:  file_put_contents(/home4/k7p1k4e2/lenteraartlighting.com/wp-content/uploads/aios/firewall-rules/settings.php): failed to open stream: No such file or directory in /home4/k7p1k4e2/lenteraartlighting.com/wp-content/plugins/all-in-one-wp-security-and-firewall/classes/firewall/libs/wp-security-firewall-config.php on line 72
+[11-Mar-2023 05:02:19 UTC] TFA: Beginning attempt to port private key encryption over to openssl
+[23-Sep-2023 01:25:35 UTC] PHP Warning:  Undefined array key "Name" in /home4/k7p1k4e2/lenteraartlighting.com/wp-content/plugins/LayerSlider/classes/class.km.autoupdate.v3.php on line 164
+[23-Sep-2023 01:25:35 UTC] PHP Warning:  Undefined array key "Name" in /home4/k7p1k4e2/lenteraartlighting.com/wp-content/plugins/js_composer/include/classes/updaters/class-vc-updater.php on line 129
+[03-Oct-2023 06:33:55 UTC] PHP Warning:  Undefined array key "Name" in /home4/k7p1k4e2/lenteraartlighting.com/wp-content/plugins/LayerSlider/classes/class.km.autoupdate.v3.php on line 164
+[03-Oct-2023 06:33:55 UTC] PHP Warning:  Undefined array key "Name" in /home4/k7p1k4e2/lenteraartlighting.com/wp-content/plugins/js_composer/include/classes/updaters/class-vc-updater.php on line 129
+[05-Oct-2023 08:47:26 UTC] PHP Warning:  Undefined array key "Name" in /home4/k7p1k4e2/lenteraartlighting.com/wp-content/plugins/LayerSlider/classes/class.km.autoupdate.v3.php on line 164
+[05-Oct-2023 08:47:26 UTC] PHP Warning:  Undefined array key "Name" in /home4/k7p1k4e2/lenteraartlighting.com/wp-content/plugins/js_composer/include/classes/updaters/class-vc-updater.php on line 129
+[06-Oct-2023 09:46:20 UTC] PHP Warning:  Undefined array key "Name" in /home4/k7p1k4e2/lenteraartlighting.com/wp-content/plugins/LayerSlider/classes/class.km.autoupdate.v3.php on line 164
+[06-Oct-2023 09:46:20 UTC] PHP Warning:  Undefined array key "Name" in /home4/k7p1k4e2/lenteraartlighting.com/wp-content/plugins/js_composer/include/classes/updaters/class-vc-updater.php on line 129
+[06-Oct-2023 11:01:46 UTC] PHP Warning:  Undefined array key "Name" in /home4/k7p1k4e2/lenteraartlighting.com/wp-content/plugins/LayerSlider/classes/class.km.autoupdate.v3.php on line 164
+[06-Oct-2023 11:01:46 UTC] PHP Warning:  Undefined array key "Name" in /home4/k7p1k4e2/lenteraartlighting.com/wp-content/plugins/js_composer/include/classes/updaters/class-vc-updater.php on line 129
+[14-Oct-2023 04:21:16 UTC] PHP Warning:  Undefined array key "Name" in /home4/k7p1k4e2/lenteraartlighting.com/wp-content/plugins/LayerSlider/classes/class.km.autoupdate.v3.php on line 164
+[14-Oct-2023 04:21:16 UTC] PHP Warning:  Undefined array key "Name" in /home4/k7p1k4e2/lenteraartlighting.com/wp-content/plugins/js_composer/include/classes/updaters/class-vc-updater.php on line 129
+[09-Nov-2023 07:31:28 UTC] PHP Fatal error:  Uncaught Error: Class "AIOSEO\Plugin\Common\Models\Notification" not found in /home4/k7p1k4e2/lenteraartlighting.com/wp-content/plugins/all-in-one-seo-pack/app/Common/Admin/Notices/Notices.php:440
+Stack trace:
+#0 /home4/k7p1k4e2/lenteraartlighting.com/wp-content/plugins/all-in-one-seo-pack/app/Common/Admin/Notices/Notices.php(381): AIOSEO\Plugin\Common\Admin\Notices\Notices->blogVisibility()
+#1 /home4/k7p1k4e2/lenteraartlighting.com/wp-content/plugins/all-in-one-seo-pack/app/Lite/Admin/Notices/Notices.php(26): AIOSEO\Plugin\Common\Admin\Notices\Notices->initInternalNotices()
+#2 /home4/k7p1k4e2/lenteraartlighting.com/wp-content/plugins/all-in-one-seo-pack/app/Common/Admin/Notices/Notices.php(99): AIOSEO\Plugin\Lite\Admin\Notices\Notices->initInternalNotices()
+#3 /home4/k7p1k4e2/lenteraartlighting.com/wp-includes/class-wp-hook.php(310): AIOSEO\Plugin\Common\Admin\Notices\Notices->init('')
+#4 /home4/k7p1k4e2/lenteraartlighting.com/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#5 /home4/k7p1k4e2/lenteraartlighting.com/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#6 /home4/k7p1k4e2/lenteraartlighting.com/wp-settings.php(632): do_action('init')
+#7 /home4/k7p1k4e2/lenteraartlighting.com/wp-config.php(92): require_once('/home4/k7p1k4e2...')
+#8 /home4/k7p1k4e2/lenteraartlighting.com/wp-load.php(50): require_once('/home4/k7p1k4e2...')
+#9 /home4/k7p1k4e2/lenteraartlighting.com/wp-admin/admin-ajax.php(22): require_once('/home4/k7p1k4e2...')
+#10 {main}
+  thrown in /home4/k7p1k4e2/lenteraartlighting.com/wp-content/plugins/all-in-one-seo-pack/app/Common/Admin/Notices/Notices.php on line 440
+[17-Nov-2023 19:24:52 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home4/k7p1k4e2/lenteraartlighting.com/wp-includes/navigation-fallback.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home4/k7p1k4e2/lenteraartlighting.com/wp-settings.php:350
+Stack trace:
+#0 /home4/k7p1k4e2/lenteraartlighting.com/wp-config.php(92): require_once()
+#1 /home4/k7p1k4e2/lenteraartlighting.com/wp-load.php(50): require_once('/home4/k7p1k4e2...')
+#2 /home4/k7p1k4e2/lenteraartlighting.com/wp-admin/upgrade.php(18): require('/home4/k7p1k4e2...')
+#3 {main}
+  thrown in /home4/k7p1k4e2/lenteraartlighting.com/wp-settings.php on line 350
+[16-Mar-2024 08:20:55 UTC] PHP Warning:  include_once(): Failed opening '/home4/k7p1k4e2/lenteraartlighting.com/wp-content/plugins/all-in-one-wp-security-and-firewall/classes/wp-security-bot-protection.php' for inclusion (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home4/k7p1k4e2/lenteraartlighting.com/wp-content/plugins/all-in-one-wp-security-and-firewall/classes/wp-security-general-init-tasks.php on line 284
+[16-Mar-2024 08:20:55 UTC] PHP Fatal error:  Uncaught Error: Class "AIOWPSecurity_Fake_Bot_Protection" not found in /home4/k7p1k4e2/lenteraartlighting.com/wp-content/plugins/all-in-one-wp-security-and-firewall/classes/wp-security-general-init-tasks.php:285
+Stack trace:
+#0 /home4/k7p1k4e2/lenteraartlighting.com/wp-content/plugins/all-in-one-wp-security-and-firewall/wp-security-core.php(471): AIOWPSecurity_General_Init_Tasks->__construct()
+#1 /home4/k7p1k4e2/lenteraartlighting.com/wp-includes/class-wp-hook.php(324): AIO_WP_Security->wp_security_plugin_init('')
+#2 /home4/k7p1k4e2/lenteraartlighting.com/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#3 /home4/k7p1k4e2/lenteraartlighting.com/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#4 /home4/k7p1k4e2/lenteraartlighting.com/wp-settings.php(643): do_action('init')
+#5 /home4/k7p1k4e2/lenteraartlighting.com/wp-config.php(92): require_once('/home4/k7p1k4e2...')
+#6 /home4/k7p1k4e2/lenteraartlighting.com/wp-load.php(50): require_once('/home4/k7p1k4e2...')
+#7 /home4/k7p1k4e2/lenteraartlighting.com/wp-admin/admin-ajax.php(22): require_once('/home4/k7p1k4e2...')
+#8 {main}
+  thrown in /home4/k7p1k4e2/lenteraartlighting.com/wp-content/plugins/all-in-one-wp-security-and-firewall/classes/wp-security-general-init-tasks.php on line 285
+[16-Mar-2024 09:16:28 UTC] PHP Warning:  Undefined array key "Name" in /home4/k7p1k4e2/lenteraartlighting.com/wp-content/plugins/LayerSlider/classes/class.km.autoupdate.v3.php on line 164
+[16-Mar-2024 09:16:28 UTC] PHP Warning:  Undefined array key "Name" in /home4/k7p1k4e2/lenteraartlighting.com/wp-content/plugins/js_composer/include/classes/updaters/class-vc-updater.php on line 129
+[16-Mar-2024 11:44:36 UTC] PHP Warning:  Undefined array key "Name" in /home4/k7p1k4e2/lenteraartlighting.com/wp-content/plugins/LayerSlider/classes/class.km.autoupdate.v3.php on line 164
+[16-Mar-2024 11:44:36 UTC] PHP Warning:  Undefined array key "Name" in /home4/k7p1k4e2/lenteraartlighting.com/wp-content/plugins/js_composer/include/classes/updaters/class-vc-updater.php on line 129
+[16-Mar-2024 06:47:51 America/Chicago] PHP Warning:  Constant WP_CACHE already defined in /home4/k7p1k4e2/lenteraartlighting.com/wp-config.php on line 3
+[16-Mar-2024 06:48:43 America/Chicago] PHP Warning:  Constant WP_CACHE already defined in /home4/k7p1k4e2/lenteraartlighting.com/wp-config.php on line 3
+[16-Mar-2024 06:49:34 America/Chicago] PHP Warning:  Constant WP_CACHE already defined in /home4/k7p1k4e2/lenteraartlighting.com/wp-config.php on line 3
+[16-Mar-2024 06:50:29 America/Chicago] PHP Warning:  Constant WP_CACHE already defined in /home4/k7p1k4e2/lenteraartlighting.com/wp-config.php on line 3
+[16-Mar-2024 06:50:29 America/Chicago] PHP Warning:  Constant WP_CACHE already defined in /home4/k7p1k4e2/lenteraartlighting.com/wp-config.php on line 3
+[16-Mar-2024 06:50:46 America/Chicago] PHP Warning:  Constant WP_CACHE already defined in /home4/k7p1k4e2/lenteraartlighting.com/wp-config.php on line 3
+[16-Mar-2024 06:51:29 America/Chicago] PHP Warning:  Constant WP_CACHE already defined in /home4/k7p1k4e2/lenteraartlighting.com/wp-config.php on line 3
+[16-Mar-2024 06:51:44 America/Chicago] PHP Warning:  Constant WP_CACHE already defined in /home4/k7p1k4e2/lenteraartlighting.com/wp-config.php on line 3
+[16-Mar-2024 06:53:31 America/Chicago] PHP Warning:  Constant WP_CACHE already defined in /home4/k7p1k4e2/lenteraartlighting.com/wp-config.php on line 3
+[16-Mar-2024 06:53:31 America/Chicago] PHP Warning:  Constant WP_CACHE already defined in /home4/k7p1k4e2/lenteraartlighting.com/wp-config.php on line 3
+[16-Mar-2024 06:55:32 America/Chicago] PHP Warning:  Constant WP_CACHE already defined in /home4/k7p1k4e2/lenteraartlighting.com/wp-config.php on line 3
+[16-Mar-2024 06:55:32 America/Chicago] PHP Warning:  Constant WP_CACHE already defined in /home4/k7p1k4e2/lenteraartlighting.com/wp-config.php on line 3
+[16-Mar-2024 06:57:33 America/Chicago] PHP Warning:  Constant WP_CACHE already defined in /home4/k7p1k4e2/lenteraartlighting.com/wp-config.php on line 3
+[16-Mar-2024 06:57:33 America/Chicago] PHP Warning:  Constant WP_CACHE already defined in /home4/k7p1k4e2/lenteraartlighting.com/wp-config.php on line 3
+[16-Mar-2024 06:59:34 America/Chicago] PHP Warning:  Constant WP_CACHE already defined in /home4/k7p1k4e2/lenteraartlighting.com/wp-config.php on line 3
+[16-Mar-2024 06:59:34 America/Chicago] PHP Warning:  Constant WP_CACHE already defined in /home4/k7p1k4e2/lenteraartlighting.com/wp-config.php on line 3
+[16-Mar-2024 07:03:59 America/Chicago] PHP Warning:  Constant WP_CACHE already defined in /home4/k7p1k4e2/lenteraartlighting.com/wp-config.php on line 3
+[16-Mar-2024 07:04:52 America/Chicago] PHP Warning:  Constant WP_CACHE already defined in /home4/k7p1k4e2/lenteraartlighting.com/wp-config.php on line 3
+[16-Mar-2024 07:26:08 America/Chicago] PHP Warning:  Constant WP_CACHE already defined in /home4/k7p1k4e2/lenteraartlighting.com/wp-config.php on line 3
+[16-Mar-2024 07:31:07 America/Chicago] PHP Warning:  Constant WP_CACHE already defined in /home4/k7p1k4e2/lenteraartlighting.com/wp-config.php on line 3
+[16-Mar-2024 07:39:41 America/Chicago] PHP Warning:  Constant WP_CACHE already defined in /home4/k7p1k4e2/lenteraartlighting.com/wp-config.php on line 3
+[16-Mar-2024 07:52:55 America/Chicago] PHP Warning:  Constant WP_CACHE already defined in /home4/k7p1k4e2/lenteraartlighting.com/wp-config.php on line 3
+[16-Mar-2024 07:59:00 America/Chicago] PHP Warning:  Constant WP_CACHE already defined in /home4/k7p1k4e2/lenteraartlighting.com/wp-config.php on line 3
+[16-Mar-2024 08:09:39 America/Chicago] PHP Warning:  Constant WP_CACHE already defined in /home4/k7p1k4e2/lenteraartlighting.com/wp-config.php on line 3
+[16-Mar-2024 08:12:47 America/Chicago] PHP Warning:  Constant WP_CACHE already defined in /home4/k7p1k4e2/lenteraartlighting.com/wp-config.php on line 3
+[16-Mar-2024 08:12:49 America/Chicago] PHP Warning:  Constant WP_CACHE already defined in /home4/k7p1k4e2/lenteraartlighting.com/wp-config.php on line 3
+[16-Mar-2024 08:12:53 America/Chicago] PHP Warning:  Constant WP_CACHE already defined in /home4/k7p1k4e2/lenteraartlighting.com/wp-config.php on line 3
+[16-Mar-2024 08:13:57 America/Chicago] PHP Warning:  Constant WP_CACHE already defined in /home4/k7p1k4e2/lenteraartlighting.com/wp-config.php on line 3
+[16-Mar-2024 08:13:58 America/Chicago] PHP Warning:  Constant WP_CACHE already defined in /home4/k7p1k4e2/lenteraartlighting.com/wp-config.php on line 3
+[16-Mar-2024 08:15:57 America/Chicago] PHP Warning:  Constant WP_CACHE already defined in /home4/k7p1k4e2/lenteraartlighting.com/wp-config.php on line 3
+[16-Mar-2024 08:15:57 America/Chicago] PHP Warning:  Constant WP_CACHE already defined in /home4/k7p1k4e2/lenteraartlighting.com/wp-config.php on line 3
+[16-Mar-2024 08:16:12 America/Chicago] PHP Warning:  Constant WP_CACHE already defined in /home4/k7p1k4e2/lenteraartlighting.com/wp-config.php on line 3
+[16-Mar-2024 08:16:13 America/Chicago] PHP Warning:  Constant WP_CACHE already defined in /home4/k7p1k4e2/lenteraartlighting.com/wp-config.php on line 3
+[16-Mar-2024 08:16:20 America/Chicago] PHP Warning:  Constant WP_CACHE already defined in /home4/k7p1k4e2/lenteraartlighting.com/wp-config.php on line 3
+[16-Mar-2024 13:16:21 UTC] PHP Warning:  Undefined array key "Name" in /home4/k7p1k4e2/lenteraartlighting.com/wp-content/plugins/LayerSlider/classes/class.km.autoupdate.v3.php on line 164
+[16-Mar-2024 13:16:21 UTC] PHP Warning:  Undefined array key "Name" in /home4/k7p1k4e2/lenteraartlighting.com/wp-content/plugins/js_composer/include/classes/updaters/class-vc-updater.php on line 129
+[16-Mar-2024 08:16:25 America/Chicago] PHP Warning:  Constant WP_CACHE already defined in /home4/k7p1k4e2/lenteraartlighting.com/wp-config.php on line 3
+[16-Mar-2024 08:16:29 America/Chicago] PHP Warning:  Constant WP_CACHE already defined in /home4/k7p1k4e2/lenteraartlighting.com/wp-config.php on line 3
+[16-Mar-2024 08:16:59 America/Chicago] PHP Warning:  Constant WP_CACHE already defined in /home4/k7p1k4e2/lenteraartlighting.com/wp-config.php on line 3
+[22-Mar-2024 15:09:08 UTC] PHP Warning:  Undefined array key "Name" in /home4/k7p1k4e2/lenteraartlighting.com/wp-content/plugins/LayerSlider/classes/class.km.autoupdate.v3.php on line 164
+[22-Mar-2024 15:09:08 UTC] PHP Warning:  Undefined array key "Name" in /home4/k7p1k4e2/lenteraartlighting.com/wp-content/plugins/js_composer/include/classes/updaters/class-vc-updater.php on line 129
+[26-Mar-2024 04:57:27 UTC] PHP Warning:  Undefined array key "adsConversionID" in /home4/k7p1k4e2/lenteraartlighting.com/wp-content/plugins/google-site-kit/includes/Core/Util/Migration_1_123_0.php on line 141

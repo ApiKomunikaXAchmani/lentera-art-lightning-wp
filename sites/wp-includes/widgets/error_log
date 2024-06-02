@@ -1,0 +1,4 @@
+[01-Dec-2022 18:52:37 America/Chicago] PHP Fatal error:  Uncaught Error: Class 'WP_Widget' not found in /home4/k7p1k4e2/lenteraartlighting.com/wp-includes/widgets/class-wp-widget-tag-cloud.php:17
+Stack trace:
+#0 {main}
+  thrown in /home4/k7p1k4e2/lenteraartlighting.com/wp-includes/widgets/class-wp-widget-tag-cloud.php on line 17
